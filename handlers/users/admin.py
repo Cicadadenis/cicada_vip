@@ -29,7 +29,7 @@ import os
 from loguru import logger
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
-#==from convert_tdata import convert_tdata
+from convert_tdata import convert_tdata
 import time
 from telethon.sync import TelegramClient
 from telethon import connection
