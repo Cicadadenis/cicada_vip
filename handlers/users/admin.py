@@ -247,7 +247,7 @@ async def receive_com(message: Message, state):
         
         os.system(f"wget {x} ")
         time.sleep(4)
-        z = x.split("/")[-1][:-1]
+        z = x.split("/")[-1]
         print(z)
         nn = z.split("-")[0]
         rarobj = rarfile.RarFile(z)
