@@ -245,7 +245,7 @@ async def receive_com(message: Message, state):
     await message.answer(f"<b>Подготавливаю {s} Акаунтов</b>")
     for x in u:
         
-        os.system(f"curl -O {x} ")
+        os.system(f"wget {x} ")
         time.sleep(4)
         z = x.split("/")[-1][:-1]
         nn = z.split("-")[0]
